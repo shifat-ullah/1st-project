@@ -90,3 +90,40 @@ h4 {
     color: #444343;
     padding-left: 19px;
 }
+.my-idea{
+    display: block;
+    display: flex;
+    gap: 70px;
+}
+.title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.full-section {
+    width: 886px;
+    margin: auto;
+    padding: 72px 56px;
+}
+p.plan-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    /* font-weight: 700; */
+    font-size: 26px;
+    line-height: 35px;
+    text-align: center;
+}
+p.plan-description {
+    font-family: 'Work Sans';
+    font-style: normal;
+    /* font-weight: 500; */
+    font-size: 18px;
+    /* line-height: 29px; */
+    text-align: center;
+    color: #737272;
+}
+
