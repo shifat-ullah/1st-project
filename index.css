@@ -1,6 +1,7 @@
 *{
     margin: 0; padding: 0;
 }
+/*header section*/
 .header {
     background-color: #f3f3f3; 
     height: 803px;
@@ -43,6 +44,11 @@ h4 {
 .mainpic{
     width: 500px;
     height: 600px;
+}
+/*minu section*/
+
+main.main-section {
+    height: 1684px;
 }
 .main-heder{
     display: flex;
@@ -90,10 +96,11 @@ h4 {
     color: #444343;
     padding-left: 19px;
 }
-.my-idea{
+.my-idea {
     display: block;
     display: flex;
     gap: 70px;
+    text-align: center;
 }
 .title {
     font-family: 'Work Sans';
@@ -126,4 +133,119 @@ p.plan-description {
     text-align: center;
     color: #737272;
 }
+.last-section {
+    width: 1030px;
+    height: 300px;
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(picture/watch.png);
+    border-radius: 8px;
+    margin: auto;
+}
+.heading-tag {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    width: 458px;
+    padding: 47px 69px;
+}
+.button{
+    background: none;
+    background-color: white;
+    padding: 12px 13px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    color: red;
+}
+.call-now {
+    padding: 10px 69px;
+}
+/*footer section*/
+.footer{
+    background-color: #151414;
+    color: white;
+}
+footer.footer {
+    display: flex;
+}
+
+
+section.footer-section {
+    display: flex;
+}
+
+.all-div-tag {
+    width: 400px;
+    padding: 55px 147px;
+}
+
+
+.footer-para {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+/* or 162% */
+    color: #FFFFFF;
+    padding-bottom: 26px;
+}
+
+.phone {
+    padding-bottom: 24px;
+}
+section.footer-section {
+    display: flex;
+}
+
+.footer-heading {
+    font-family: 'Work Sans';
+    font-style: normal;
+    /* font-weight: 700; */
+    font-size: 45px;
+    line-height: 53px;
+/* identical to box height */
+    color: #F8F8F8;
+    padding-bottom: 7px;
+}
+
+.last-div-tag {
+    padding: 68px 169px;
+}
+
+.Subscribe {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    /* line-height: 29px; */
+    color: white;
+    /* background-color: white; */
+}
+
+.email-text {
+
+font-family: 'Work Sans';
+
+font-style: normal;
+
+font-weight: 392px;
+
+font-size: -7px;
+
+line-height: 21px;
+
+/* Dark 07 */
+
+color: #F3F3F3;
+
+padding-bottom: 35px;
+
+}
+
+.final {
+    background: none;
+}
+
 
