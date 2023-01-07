@@ -1,0 +1,43 @@
+*{
+    margin: 0; padding: 0;
+}
+.header {
+    background-color: #f3f3f3; 
+    height: 803px;
+}
+
+.container {
+    width: 419px;
+    height: 364px;
+    padding-top: 100px;
+    padding-left: 768px;
+    text-align: right;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+button {
+    background-color: #f15B22;
+    padding: 18px 23px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+h4 {
+    padding-bottom: 32px;
+}
+.img{
+    width: 50px;
+    height: 634px;
+}
+.topsection{
+    display: flex;
+    align-items: center;
+}
+.mainpic{
+    width: 500px;
+    height: 600px;
+}
