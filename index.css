@@ -16,6 +16,8 @@
 
 h1 {
     font-size: 64px;
+    font-family: 'Work Sans';
+    font-style: normal;
 }
 
 button {
@@ -28,6 +30,7 @@ button {
 
 h4 {
     padding-bottom: 32px;
+    color: #444343;
 }
 .img{
     width: 50px;
@@ -40,4 +43,50 @@ h4 {
 .mainpic{
     width: 500px;
     height: 600px;
+}
+.main-heder{
+    display: flex;
+    height: 735.299805px;
+    width: 979px;
+    margin: auto;
+    padding-left: 0px;
+    padding-top: 120px;
+    background-color: #FFFFFF;
+}
+.heading-section{
+    text-align: justify;
+    width: 301px;
+    height: 300px;
+    padding-top: 271px;
+    padding-left: 174px;
+    position: initial;
+}
+.heading {
+    width: 280px;
+    font-size: 28px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    padding-bottom: 22px;
+}
+.\31 st-paragraph {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding-bottom: 6px;
+}
+.paragraph {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding-left: 19px;
 }
